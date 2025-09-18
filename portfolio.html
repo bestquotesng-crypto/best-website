@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Website</title>
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="style-portfolio.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+  <body>
+    <header>
+<nav>
+  <div>
+    <h1>
+  <a href="index.html">
+    <img class="reduce-logo" src="Website-images/UPDATED-LOGO.png" alt="BQ-NEW-LOGO">
+  </a>
+</h1>
+  </div>
+    <ul id="menuList">
+<li><a href="about-us.html">About Us</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="portfolio.html">Portfolio</a></li>
+<li><a href="contact-us.html">Contact</a></li>
+<li><a href="book-consultation.html" class="book-consult">Book Consultation</a></li>
+</ul>
+<div class="menu-bar">
+ <i class="fa fa-bars"></i>
+</div>
+</nav>
+</header>
+<script>
+
+  const menuBar = document.querySelector('.menu-bar i');
+  const menuList = document.querySelector('#menuList');
+
+menuBar.addEventListener('click', () => {
+  menuList.classList.toggle('show');
+
+  if (menuList.classList.contains('show')) {
+    menuBar.classList.replace('fa-bars', 'fa-times');
+  } else {
+    menuBar.classList.replace('fa-times', 'fa-bars');
+  }
+});
+
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<div class="port-main">
+  <h1 class="outstand" data-aos="fade-up"><span class="out">The Best Solutions</span> 
+    <span>for Outstanding</span> Clients</h1>
+</div>
+
+<div class="port-content">
+  <img class="port-img" data-aos="fade-up" src="Website-images/tasha-kostyuk--3gY_znZszw-unsplash.webp" alt="">
+  <div class="port-cont">
+  <h2 class="our-port" data-aos="fade-up"> We take pride in delivering tailored solutions across various industries.</h2>
+  <p class="port-write" data-aos="fade-up"> Each project reflects our commitment to 
+    excellence and innovation, highlighting how we help 
+    our clients achieve their goals. Browse through our 
+    work to see how we can elevate your brand and drive 
+    meaningful results.</p>
+    <a class="behance" href="https://www.behance.net/Bestquotesng" target="_blank">View Portfolio on Behance</a>
+    </div>
+</div>
+<div class="second-port">
+  <h1 class="solu-port" data-aos="fade-up">We offer <span class="solu">solution to</span> our esteem clients.</h1>
+  <p class="we-under">We understand that every client has unique 
+    challenges and aspirations, which is why we offer 
+    customized solutions designed to meet specific 
+    business needs.
+  <span class="sec-para" data-aos="fade-up">We invite you to book a free consultation, 
+    let's start a conversation about your future success!</span>
+  </p>
+  <a class="book-port" href="book-consultation.html">Book Free Consultation</a>
+</div>
+<section>
+
+</section>
+
+<div class="footer">
+  <div class="down-one">
+  <div class="media-icons">
+<a class="icons" href="https://www.instagram.com/bestquotesng" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+<a class="icons" href="https://web.facebook.com/bestquotesng" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+<a class="icons" href="https://www.linkedin.com/company/best-quotes-content-and-consultancy/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+<a class="icons" href="https://x.com/bestquotesngr" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+</div>
+<h2 class="all-rights">ALL RIGHT RESERVED</h2>
+</div>
+<div class="down-two">
+<h1 class="you-biz">Your business deserves the best!</h1>
+<p class="contact-us">Contact us, let's work on your project
+  and give you the best services.
+</p>
+</div>
+<div class="last-book">
+  <a class="last-button" href="book-consultation.html">Book Free Consultation</a>
+</div>
+
+</div>
+
+  </body>
+</html>

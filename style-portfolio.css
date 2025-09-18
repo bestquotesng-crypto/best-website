@@ -1,0 +1,486 @@
+*{
+  text-decoration: none;
+  margin 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+h1, h2, p, a{
+  font-family: roboto;
+}
+
+body {
+  padding: 70px;
+}
+
+html,body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.header-info {
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+
+nav {
+  position: fixed;
+  background-color: white;
+  font-family: roboto;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  height: 80px;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-bottom: 8px solid rgb(128, 194, 66);
+  
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+li{
+  list-style: none;
+  
+}
+
+li a{
+  color: rgb(29, 23, 75);
+  font-size: 14px;
+  font-weight: medium;
+  margin-right: 30px;
+}
+
+
+
+.reduce-logo {
+  width: 230px;
+  margin-left: 30px;
+  margin-top: 4px;
+}
+
+ul li a:hover {
+  color: rgb(128, 194, 66);
+  text-decoration: underline;
+}
+
+.menu-bar i{
+  color: rgb(29, 23, 75);
+  font-size: 20px;
+}
+
+.menu-bar {
+  display: none;
+  cursor: pointer;
+}
+
+.book-consult {
+    background:rgb(29, 23, 75);
+    padding: 10px 16px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background 0.5s ease;
+}
+
+.book-consult:hover {
+    background: rgb(128, 194, 66);
+    color: rgb(29, 23, 75);
+    text-decoration: none;
+}
+
+
+.port-main {
+  margin-top: 140px;
+}
+
+.outstand {
+  font-size: 100px;
+  text-align: center;
+  color: rgb(29, 23, 75);
+  line-height: 100px;
+}
+
+.out {
+  display: block;
+  color: rgb(128, 194, 66);
+}
+
+.port-img {
+  width: 500px;
+  display: inline-block;
+}
+
+
+.our-port {
+  display: inline-block;
+  width: 600px;
+  font-size: 30px;
+  color: rgb(29, 23, 75);
+}
+
+.port-content {
+  margin: auto 150px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+
+.port-write {
+  width: 500px;
+  font-size: 18px;
+  color: gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 30px;  
+}
+
+.port-cont {
+ display: inline-block;
+ vertical-align: top;
+ margin-left: 70px;
+ margin-top: 30px;
+}
+
+.behance {
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: medium;
+  background-color: rgb(128, 194, 66);
+  transition: 0.5s; 
+}
+
+.behance:hover {
+  background-color: rgb(29, 23, 75);
+}
+
+
+
+.solu-port {
+  font-size: 65px;
+  width: 500px;
+  line-height: 60px;
+  display: inline-block;
+  margin: 0px;
+  color: rgb(29, 23, 75);
+}
+
+
+
+.we-under {
+  width: 500px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0px;
+  font: 16px;
+  color: gray;
+}
+
+.sec-para {
+  display: block;
+  margin-top: 30px;
+  font-style: italic;
+}
+
+
+.second-port {
+  margin: auto 250px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+
+
+.book-port {
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: medium;
+  background-color: rgb(128, 194, 66);
+  display: inline-block;
+  margin-top: 20px;
+  transition: 0.5s;  
+}
+
+.book-port:hover {
+  background-color: rgb(29, 23, 75);
+}
+
+
+
+
+
+
+
+
+
+
+.footer {
+  background-color: rgb(29, 23, 75);
+  padding: 35px;
+}
+
+.media-icons {
+  display: flex;
+  width: 300px;
+  padding: 10px;
+  gap: 10px;
+  margin-bottom: 0px;
+  }
+
+
+ .icons {
+  color: white;
+  font-size: 20px;
+ }
+
+ .all-rights {
+  color: white;
+  font-size: 12px;
+  font-weight: normal;
+  margin-top: 0px;
+  padding: 0px;
+
+ }
+
+.down-one {
+  margin-left: 70px;
+  width: 300px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.down-two {
+  display: inline-block;
+  width: 500px;
+  vertical-align: middle;
+  margin-left: 120px;
+  padding: 0px;
+}
+
+
+.you-biz {
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+  padding: 0px;
+  margin: 0px;
+}
+
+.contact-us {
+  color: rgb(128, 194, 66);
+  font-weight: normal;
+  font-size: 14px;
+  width: 300px;
+}
+
+.last-book {
+  display: inline-block;
+  width: auto;
+}
+
+.last-button {
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  background-color: rgb(128, 194, 66);
+  color: rgb(29, 23, 75);
+  border: none;
+  border-radius: 50px;
+  margin-left: 150px;  
+}
+
+.last-button:hover {
+  background-color: white;
+  color: rgb(29, 23, 75);
+}
+
+
+
+
+
+
+
+@media (max-width: 600px) 
+{
+nav ul{
+ position: absolute;
+ top: 60px; 
+ left: 0;
+ right: 0;
+ flex-direction: column;
+ text-align: center;
+ gap: 30px;
+ background-color: white;
+ overflow: hidden;
+ margin-top: 20px;
+ max-height: 0;
+ z-index: 999;
+} 
+
+li{
+  margin-top: 20px;
+}
+nav ul.show {
+  max-height: 300px;
+}
+.menu-bar {
+  display: block;
+}
+#menuList {
+  transition: all 0.5s;
+}
+
+.reduce-logo {
+  width: 180px;
+  margin-left: 0px;
+}
+
+.book-consult {
+  display: none;
+}
+
+.aware {
+  font-size: 70px;
+}
+
+.reduce-logo {
+  width: 180px;
+  margin-left: 0px;
+}
+
+
+.outstand {
+  font-size: 70px;
+  text-align: center;
+  color: rgb(29, 23, 75);
+  line-height: 60px;
+  }
+
+
+.port-img {
+  width: 500px;
+  display: inline-block;
+}
+
+
+.port-main {
+  margin-top: 120px;
+}
+
+
+.port-content {
+  margin: auto 0px;
+  padding-top: 10px;
+  padding-bottom: 60px;
+}
+
+
+.port-cont {
+ margin-left: 30px;
+ margin-top: 20px;
+}
+
+
+.our-port {
+  width: 400px;
+  font-size: 30px;
+  color: rgb(29, 23, 75);
+}
+
+
+.port-write {
+  width: 400px;
+  font-size: 18px;
+  color: gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 30px;
+}
+
+
+.second-port {
+  margin: auto 30px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+
+
+.solu-port {
+  font-size: 55px;
+  width: 440px;
+  line-height: 50px;
+ margin: 0px;
+  color: rgb(29, 23, 75);
+  padding-bottom: 30px;
+}
+
+
+.solu {
+  display: inline-block;
+}
+
+
+.we-under {
+  width: 400px;
+  margin: 0px;
+  font: 16px;
+  color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  .down-one {
+    margin-left: 0px;
+    display: block;
+  }
+  .down-two {
+    margin-left: 0px;
+    display: block;
+  }
+
+  .you-biz {
+    font-size: 25px;
+  }
+  .last-button {
+    display: block;
+    margin-left: 0px;
+  }
+

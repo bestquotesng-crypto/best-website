@@ -1,0 +1,408 @@
+*{
+  text-decoration: none;
+  margin 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+h1, h2, h3, p, a{
+  font-family: roboto;
+}
+
+body {
+  padding: 70px;
+}
+
+html,body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.header-info {
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+
+nav {
+  position: fixed;
+  background-color: white;
+  font-family: roboto;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  height: 80px;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-bottom: 8px solid rgb(128, 194, 66);
+  
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+li{
+  list-style: none;
+  
+}
+
+li a{
+  color: rgb(29, 23, 75);
+  font-size: 14px;
+  font-weight: medium;
+  margin-right: 30px;
+}
+
+
+
+.reduce-logo {
+  width: 230px;
+  margin-left: 30px;
+  margin-top: 4px;
+}
+
+ul li a:hover {
+  color: rgb(128, 194, 66);
+  text-decoration: underline;
+}
+
+.menu-bar i{
+  color: rgb(29, 23, 75);
+  font-size: 20px;
+}
+
+.menu-bar {
+  display: none;
+  cursor: pointer;
+}
+
+.book-consult {
+    background:rgb(29, 23, 75);
+    padding: 10px 16px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background 0.5s ease;
+}
+
+.book-consult:hover {
+    background: rgb(128, 194, 66);
+    color: rgb(29, 23, 75);
+    text-decoration: none;
+}
+
+
+
+.consult-main {
+  margin-top: 150px;
+}
+
+.with-us {
+  font-size: 80px;
+  width: 600px;
+  line-height: 80px;
+  color: rgb(29, 23, 75);
+  margin: auto;
+}
+
+
+.intouch {
+  width: 350px;
+  font-size: 25px;
+  color: gray;
+  font-weight: normal;
+}
+
+.div-one {
+  display: inline-block;
+  margin-left: 230px;
+}
+
+
+.div-two {
+  display: inline-block;
+  vertical-align: top;
+  align-items: center;
+  margin: 0px ;
+  border: 1px solid;
+  padding: 15px;
+  border-radius: 10px;
+  border-color: rgb(159, 157, 157);
+}
+
+
+.first-name, .last-name, .email, .number, 
+.company-name, .how-did {
+  border: 0px solid;
+  padding: 10px 10px;
+  border-radius: 5px;
+  background-color: rgb(239, 243, 247);
+  margin: 8px 6px;
+  font-size: 14px;
+}
+
+.type-message {
+  border: 0px solid;
+  background-color: rgb(239, 243, 247);
+  padding: 20px 10px;
+  font-family: roboto;
+  font-size: 14px;
+  margin: 8px 6px;
+  height: 200px;
+  width: 406px;
+  resize: horizontal;
+  }
+
+input:focus,
+textarea:focus {
+  outline: none;        
+  box-shadow: none;        
+  border-color: inherit;   
+}
+
+  .book-main-button {
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  background-color: rgb(128, 194, 66);
+  color: rgb(29, 23, 75);
+  border: none;
+  border-radius: 50px;
+  transition: 0.5s;
+  font-family: roboto;
+  }
+
+
+  .book-main-button:hover {
+    background-color: rgb(29, 23, 75);
+    color: white;
+  }
+
+  .consult {
+    color: rgb(128, 194, 66);
+  }
+
+  .div-button {
+    margin: 20px 100px;
+  }
+
+
+  .div-third {
+    margin: 120px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  background-color: rgb(29, 23, 75);
+  padding: 35px;
+}
+
+.media-icons {
+  display: flex;
+  width: 300px;
+  padding: 10px;
+  gap: 10px;
+  margin-bottom: 0px;
+  }
+
+
+ .icons {
+  color: white;
+  font-size: 20px;
+ }
+
+ .all-rights {
+  color: white;
+  font-size: 12px;
+  font-weight: normal;
+  margin-top: 0px;
+  padding: 0px;
+
+ }
+
+.down-one {
+  margin-left: 70px;
+  width: 300px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.down-two {
+  display: inline-block;
+  width: 500px;
+  vertical-align: middle;
+  margin-left: 120px;
+  padding: 0px;
+}
+
+
+.you-biz {
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+  padding: 0px;
+  margin: 0px;
+}
+
+.contact-us {
+  color: rgb(128, 194, 66);
+  font-weight: normal;
+  font-size: 14px;
+  width: 300px;
+}
+
+.last-book {
+  display: inline-block;
+  width: auto;
+}
+
+.last-button {
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  background-color: rgb(128, 194, 66);
+  color: rgb(29, 23, 75);
+  border: none;
+  border-radius: 50px;
+  margin-left: 150px;  
+}
+
+.last-button:hover {
+  background-color: white;
+  color: rgb(29, 23, 75);
+}
+
+
+
+
+
+
+
+@media (max-width: 600px) 
+{
+nav ul{
+ position: absolute;
+ top: 60px; 
+ left: 0;
+ right: 0;
+ flex-direction: column;
+ text-align: center;
+ gap: 30px;
+ background-color: white;
+ overflow: hidden;
+ margin-top: 20px;
+ max-height: 0;
+ z-index: 999;
+} 
+
+li{
+  margin-top: 20px;
+}
+nav ul.show {
+  max-height: 300px;
+}
+.menu-bar {
+  display: block;
+}
+#menuList {
+  transition: all 0.5s;
+}
+
+.reduce-logo {
+  width: 180px;
+  margin-left: 0px;
+}
+.book-consult {
+  display: none;
+}
+
+.aware {
+  font-size: 70px;
+}
+
+.reduce-logo {
+  width: 180px;
+  margin-left: 0px;
+}
+
+.div-one {
+  margin-left: 30px;
+}
+
+.div-two {
+  margin-left: 14px;
+}
+
+
+.consult-main {
+  margin-top: 120px;
+}
+
+.with-us {
+  font-size: 70px;
+  width: 450px;
+  line-height: 80px;
+  color: rgb(29, 23, 75);
+  margin: auto;
+}
+
+
+ .div-third {
+    margin: 70px;
+  }
+
+
+
+
+
+
+
+
+
+  .down-one {
+    margin-left: 0px;
+    display: block;
+  }
+  .down-two {
+    margin-left: 0px;
+    display: block;
+  }
+
+  .you-biz {
+    font-size: 25px;
+  }
+  .last-button {
+    display: block;
+    margin-left: 0px;
+  }
+

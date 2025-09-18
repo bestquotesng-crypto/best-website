@@ -1,0 +1,503 @@
+*{
+  text-decoration: none;
+  margin 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+h1, h3, h2, p, a{
+  font-family: roboto;
+}
+
+body {
+  padding: 70px;
+}
+
+html,body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.header-info {
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+
+nav {
+  position: fixed;
+  background-color: white;
+  font-family: roboto;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  height: 80px;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-bottom: 8px solid rgb(128, 194, 66);
+  
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+li{
+  list-style: none;
+  
+}
+
+li a{
+  color: rgb(29, 23, 75);
+  font-size: 14px;
+  font-weight: medium;
+  margin-right: 30px;
+}
+
+
+
+.reduce-logo {
+  width: 230px;
+  margin-left: 30px;
+  margin-top: 4px;
+}
+
+ul li a:hover {
+  color: rgb(128, 194, 66);
+  text-decoration: underline;
+}
+
+.menu-bar i{
+  color: rgb(29, 23, 75);
+  font-size: 20px;
+}
+
+.menu-bar {
+  display: none;
+  cursor: pointer;
+}
+
+.book-consult {
+    background:rgb(29, 23, 75);
+    padding: 10px 16px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background 0.5s ease;
+}
+
+.book-consult:hover {
+    background: rgb(128, 194, 66);
+    color: rgb(29, 23, 75);
+    text-decoration: none;
+}
+
+.section-one {
+  margin-top: 100px;
+  padding: 40px;
+  justify-content: center;
+}
+
+.about-us {
+  font-size: 40px;
+  color: rgb(29, 23, 75);
+  margin: 0px;
+}
+
+
+.underline-about {
+  width: 150px;
+  height: 5px;
+  background-color: rgb(128, 194, 66);
+}
+
+.about-content {
+  font-weight: normal;
+  font-size: 20px;
+  width: 550px;
+  line-height: 30px;
+  color: gray;
+}
+
+
+
+.para-one, .para-two, 
+.para-three, .para-four, 
+.para-five {
+  display: block;
+  padding-bottom: 10px;
+}
+
+.about-image {
+  width: 600px;
+  margin-left: 70px;
+  
+}
+
+.about-main {
+  display: inline-block;
+  margin-left: 70px;
+  margin-right: 50px;
+  margin-bottom: 100px;
+}
+
+
+.about-img {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+
+
+.journey {
+  font-size: 60px;
+  text-align: center;
+  color: rgb(29, 23, 75);
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
+.innovate {
+  color: rgb(128, 194, 66);
+  }
+
+  .brand-story {
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    color: gray;
+    margin-bottom: 100px;
+  }
+
+
+.value {
+  border: 2px solid;
+  width: 600px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  display: block;
+  box-sizing: border-box;
+  color: gray;
+  font-size: 14px;
+  border-color: rgb(29, 23, 75);
+  margin: 20px auto;
+  border-radius: 5px;
+  
+  }
+
+.our-values {
+  display: inline-block;
+  width: 400px;
+  vertical-align: top;
+}
+
+
+.value-list {
+ display: inline-block; 
+}
+
+
+
+.val {
+  font-size: 40px;
+  color: rgb(29, 23, 75);
+}
+
+.about-second {
+ margin: auto 210px;
+}
+
+.value-guide {
+  font-size: 50px;
+  text-align: center;
+  color: rgb(29, 23, 75);
+}
+
+.shape {
+  display: block;
+  color: rgb(128, 194, 66);
+}
+
+
+.together {
+  text-align: center;
+  font-weight: normal;
+  font-size: 18px;
+  display: block;
+  width: auto;
+  margin: auto;
+  color: gray;
+}
+
+
+.about-third {
+  margin-top: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  background-color: rgb(29, 23, 75);
+  padding: 35px;
+}
+
+.media-icons {
+  display: flex;
+  width: 300px;
+  padding: 10px;
+  gap: 10px;
+  margin-bottom: 0px;
+  }
+
+
+ .icons {
+  color: white;
+  font-size: 20px;
+ }
+
+ .all-rights {
+  color: white;
+  font-size: 12px;
+  font-weight: normal;
+  margin-top: 0px;
+  padding: 0px;
+
+ }
+
+.down-one {
+  margin-left: 70px;
+  width: 300px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.down-two {
+  display: inline-block;
+  width: 500px;
+  vertical-align: middle;
+  margin-left: 120px;
+  padding: 0px;
+}
+
+
+.you-biz {
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+  padding: 0px;
+  margin: 0px;
+}
+
+.contact-us {
+  color: rgb(128, 194, 66);
+  font-weight: normal;
+  font-size: 14px;
+  width: 300px;
+}
+
+.last-book {
+  display: inline-block;
+  width: auto;
+}
+
+.last-button {
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  background-color: rgb(128, 194, 66);
+  color: rgb(29, 23, 75);
+  border: none;
+  border-radius: 50px;
+  margin-left: 150px;  
+}
+
+.last-button:hover {
+  background-color: white;
+  color: rgb(29, 23, 75);
+}
+
+
+
+
+
+
+
+@media (max-width: 600px) 
+{
+nav ul{
+ position: absolute;
+ top: 60px; 
+ left: 0;
+ right: 0;
+ flex-direction: column;
+ text-align: center;
+ gap: 30px;
+ background-color: white;
+ overflow: hidden;
+ margin-top: 20px;
+ max-height: 0;
+ z-index: 999;
+} 
+
+li{
+  margin-top: 20px;
+}
+nav ul.show {
+  max-height: 300px;
+}
+.menu-bar {
+  display: block;
+}
+#menuList {
+  transition: all 0.5s;
+}
+
+.book-consult {
+  display: none;
+}
+
+.aware {
+  font-size: 70px;
+}
+
+
+.reduce-logo {
+  width: 180px;
+  margin-left: 0px;
+}
+
+.about-image {
+  width: 600px;
+  margin: auto;
+  display: flex;
+  
+}
+.section-one {
+  margin-top: 80px;
+  padding: 0px;
+}
+
+.about-main {
+  display: inline-block;
+  margin-left: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+
+.about-content {
+  font-weight: normal;
+  font-size: 18px;
+  width: 400px;
+  line-height: 30px;
+  color: gray;
+  margin-bottom: 0px;
+  margin-top: 60px;
+}
+
+.journey {
+  font-size: 60px;
+  color: rgb(29, 23, 75);
+  margin-bottom: 5px;
+  margin-top: 0px;
+  line-height: 63px;
+}
+
+ .brand-story {
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    color: gray;
+    margin-bottom: 70px;
+  }
+
+
+
+  .about-second {
+ margin: auto 30px;
+}
+
+
+.value {
+  border: 2px solid;
+  width: 420px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  display: block;
+  box-sizing: border-box;
+  color: gray;
+  font-size: 14px;
+  border-color: rgb(29, 23, 75);
+  margin: 20px auto;
+  border-radius: 5px;
+  
+  }
+
+
+.together {
+
+  width: 400px;
+  margin: 40px auto;
+  color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .down-one {
+    margin-left: 0px;
+    display: block;
+  }
+  .down-two {
+    margin-left: 0px;
+    display: block;
+  }
+
+  .you-biz {
+    font-size: 25px;
+  }
+  .last-button {
+    display: block;
+    margin-left: 0px;
+  }
+

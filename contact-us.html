@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Website</title>
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="style-contact-us.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+  <body>
+    <header>
+<nav>
+  <div>
+  <h1>
+  <a href="index.html">
+    <img class="reduce-logo" src="Website-images/UPDATED-LOGO.png" alt="BQ-NEW-LOGO">
+  </a>
+</h1>
+  </div>
+    <ul id="menuList">
+<li><a href="about-us.html">About Us</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="portfolio.html">Portfolio</a></li>
+<li><a href="contact-us.html">Contact</a></li>
+<li><a href="book-consultation.html" class="book-consult">Book Consultation</a></li>
+</ul>
+<div class="menu-bar">
+ <i class="fa fa-bars"></i>
+</div>
+</nav>
+</header>
+<script>
+
+  const menuBar = document.querySelector('.menu-bar i');
+  const menuList = document.querySelector('#menuList');
+
+menuBar.addEventListener('click', () => {
+  menuList.classList.toggle('show');
+
+  if (menuList.classList.contains('show')) {
+    menuBar.classList.replace('fa-bars', 'fa-times');
+  } else {
+    menuBar.classList.replace('fa-times', 'fa-bars');
+  }
+});
+
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
+
+<section class="contact-main">
+  <div>
+ <h2 class="we-love" data-aos="fade-up">We’d love to hear from you!</h2> 
+<h1 class="discuss" data-aos="fade-up"><span class="let">Let's</span> <span class="disc">discuss</span> <span class="your">your</span> <span class="project">project!</span></h1>
+<div class="button-div" data-aos="fade-up">
+<a class="contact-button" href="book-consultation.html">Book Free Consultation</a>
+</div>
+</div>
+
+<div class="contact-middle">
+  <div class="image-div" data-aos="fade-up">
+  <img class="contact-image" src="Website-images/boliviainteligente-hozwYKivmRc-unsplash.webp" alt="">
+  </div>
+
+  <div class="contact-div">
+  <h3 class="we-value" data-aos="fade-up">
+    We value open communication and are here to 
+    assist you with any inquiries or project discussions. 
+    Whether you have questions about our services, 
+    need guidance on a project, or want to schedule 
+    a free consultation, our team is ready to help.
+  </h3>
+  <div class="contact-line" data-aos="fade-up"></div>
+  <div class="contact-info" data-aos="fade-up">
+  <p><i class="fa fa-envelope"></i> info@bestquotesconsult.com</p>
+  <p><i class="fa fa-phone"></i> +234 (0) 811 0057 368</p>
+  <p><i class="fa fa-map-marker-alt"></i> Abuja, Nigeria</p>
+</div>
+  </div>
+
+
+</div>
+</section>
+
+<div class="footer">
+  <div class="down-one">
+  <div class="media-icons">
+<a class="icons" href="https://www.instagram.com/bestquotesng" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+<a class="icons" href="https://web.facebook.com/bestquotesng" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+<a class="icons" href="https://www.linkedin.com/company/best-quotes-content-and-consultancy/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+<a class="icons" href="https://x.com/bestquotesngr" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+</div>
+<h2 class="all-rights">ALL RIGHT RESERVED</h2>
+</div>
+<div class="down-two">
+<h1 class="you-biz">Your business deserves the best!</h1>
+<p class="contact-us">Contact us, let's work on your project
+  and give you the best services.
+</p>
+</div>
+<div class="last-book">
+  <a class="last-button" href="book-consultation.html">Book Free Consultation</a>
+</div>
+
+</div>
+
+  </body>
+</html>

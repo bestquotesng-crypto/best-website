@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Website</title>
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="style-about.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+  <body>
+    <header>
+<nav>
+  <div>
+   <h1>
+  <a href="index.html">
+    <img class="reduce-logo" src="Website-images/UPDATED-LOGO.png" alt="BQ-NEW-LOGO">
+  </a>
+</h1>
+  </div>
+    <ul id="menuList">
+<li><a href="about-us.html">About Us</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="portfolio.html">Portfolio</a></li>
+<li><a href="contact-us.html">Contact</a></li>
+<li><a href="book-consultation.html" class="book-consult">Book Consultation</a></li>
+</ul>
+<div class="menu-bar">
+ <i class="fa fa-bars"></i>
+</div>
+</nav>
+</header>
+<script>
+
+  const menuBar = document.querySelector('.menu-bar i');
+  const menuList = document.querySelector('#menuList');
+
+menuBar.addEventListener('click', () => {
+  menuList.classList.toggle('show');
+
+  if (menuList.classList.contains('show')) {
+    menuBar.classList.replace('fa-bars', 'fa-times');
+  } else {
+    menuBar.classList.replace('fa-times', 'fa-bars');
+  }
+});
+
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<section class="section-one">
+ <div class="about-img" data-aos="fade-up">
+<img class="about-image" src="Website-images/milad-fakurian-PGdW_bHDbpI-unsplash.webp" alt="">
+</div> 
+<div class="about-main">
+  <h1 class="about-us" data-aos="fade-up">About Us</h1>
+  <div class="underline-about" data-aos="fade-up"></div>
+  <p class="about-content" data-aos="fade-up">
+<span class="para-one">Best Quotes Content and Consultancy is a leading provider of strategic media and communication solutions, 
+  dedicated to empowering brands through innovative content creation, effective public relations, and comprehensive corporate advisory services. 
+  We help organizations navigate the digital landscape to enhance their 
+    market presence and achieve their business goals.</span>
+
+<span class="para-two">Our consultancy is dedicated to transforming the way brands 
+engage with their audiences. We understand that compelling narratives and strategic messaging are crucial 
+for building trust and fostering lasting connections in today's competitive market.</span>
+</p>
+</div>
+
+<h1 class="journey" data-aos="fade-up">Join us on a journey of <span class="innovate">innovation</span></h1>
+<h2 class="brand-story" data-aos="fade-up"> As we help you articulate your brand story, engage your stakeholders, 
+and drive meaningful results.</h2>
+
+<div class="about-second">
+<div class="our-values">
+  <h1 class="val" data-aos="fade-up">Our Values</h1>
+</div>
+<div class="value-list">
+
+<div class="value" data-aos="fade-up">
+  <h3>INTEGRITY</h3>
+</div>
+
+<div class="value" data-aos="fade-up">
+  <h3>PROFESSIONALISM</h3>
+</div>
+
+<div class="value" data-aos="fade-up">
+  <h3>ACCOUNTABILITY</h3>
+</div>
+
+<div class="value" data-aos="fade-up">
+  <h3>COMMITMENT</h3>
+</div>
+
+<div class="value" data-aos="fade-up">
+  <h3>COLLABORATION</h3>
+</div>
+
+</div>
+</div>
+<div class="about-third">
+  <h1 class="value-guide">our values guide everything we do, 
+    <span class="shape">shaping our culture and approach.</span></h1>
+    <h2 class="together">
+     Together, these values empower us to deliver 
+     exceptional results and foster lasting partnerships 
+     with our clients. 
+    </h2>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+<div class="footer">
+  <div class="down-one">
+  <div class="media-icons">
+<a class="icons" href="https://www.instagram.com/bestquotesng" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+<a class="icons" href="https://web.facebook.com/bestquotesng" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+<a class="icons" href="https://www.linkedin.com/company/best-quotes-content-and-consultancy/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+<a class="icons" href="https://x.com/bestquotesngr" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+</div>
+<h2 class="all-rights">ALL RIGHT RESERVED</h2>
+</div>
+<div class="down-two">
+<h1 class="you-biz">Your business deserves the best!</h1>
+<p class="contact-us">Contact us, let's work on your project
+  and give you the best services.
+</p>
+</div>
+<div class="last-book">
+  <a class="last-button" href="book-consultation.html">Book Free Consultation</a>
+</div>
+
+</div>
+
+  </body>
+</html>
