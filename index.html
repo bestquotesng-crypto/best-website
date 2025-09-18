@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Website</title>
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+    <header class="hero-header">
+<nav>
+  <div>
+    <h1>
+  <a href="index.html">
+    <img class="reduce-logo" src="Website-images/UPDATED-LOGO.png" alt="BQ-NEW-LOGO">
+  </a>
+</h1>
+  </div>
+    <ul id="menuList">
+<li><a href="about-us.html">About Us</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="portfolio.html">Portfolio</a></li>
+<li><a href="contact-us.html">Contact</a></li>
+<li><a href="book-consultation.html" class="book-consult">Book Consultation</a></li>
+</ul>
+<div class="menu-bar">
+ <i class="fa fa-bars"></i>
+</div>
+</nav>
+<div class="header-info">
+  <h1 class="aware" data-aos="fade-up"><span class="awareness">Awareness</span> Redefines Approach.</h1>
+  <h2 class="embrace" data-aos="fade-up">Embrace new dynamics to become more aware.</h2>
+  <p class="company"data-aos="fade-up" >As a company we remain committed to supporting clients 
+    redefine their perspective, strategies, and methods with deep understanding of media, communications and business 
+    insight that leads to improved actions and solutions</p>
+    <a class="book-button" href="book-consultation.html">Book Free Consultation</a>
+</div>
+</header>
+<script>
+
+  const menuBar = document.querySelector('.menu-bar i');
+  const menuList = document.querySelector('#menuList');
+
+menuBar.addEventListener('click', () => {
+  menuList.classList.toggle('show');
+
+  if (menuList.classList.contains('show')) {
+    menuBar.classList.replace('fa-bars', 'fa-times');
+  } else {
+    menuBar.classList.replace('fa-times', 'fa-bars');
+  }
+});
+
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
+<div class="second-line">
+  <img class="about-img" src="Website-images/r_-r-2_BZuGgkP4k-unsplash.webp" alt="">
+  <div class="side-info">
+  <h2 class="about-us" data-aos="fade-up">ABOUT US</h2>
+  <div class="underline" data-aos="fade-up"></div>
+  <h2 class="we-offer" data-aos="fade-up"><span>We Offer</span> <span>Innovation</span>
+  <span>that Empowers your</span> <span class="business">Business.</span></h2>
+  <p class="best-content" data-aos="fade-up">Best Quotes Content and Consultancy is a leading provider of strategic media and communication solutions, dedicated to empowering brands through innovative content creation, effective public relations, and comprehensive corporate advisory services. With a focus on cloud and web services, we help organizations navigate the digital landscape to enhance their 
+    market presence and achieve their business goals.</p>
+    <a class="read-more" data-aos="fade-left" href="about-us.html">Read More<i class="fa-solid fa-arrow-right"></i></a>
+  </div>
+</div>
+
+  <div class="third-line">
+    <img class="second-image" src="Website-images/boliviainteligente-45jmFQo9oN8-unsplash.webp" alt="">
+    <div class="third-line-content">
+    <h2 class="driven" data-aos="fade-left">Experience Result-Driven Approach to <span class="business-two">Business.</span></h2>
+    <p class="our-team" data-aos="fade-left">Our team of experts brings a wealth of knowledge in brand development, public relations, 
+      content creation, and corporate advisory.</p>
+      <a class="book-again" data-aos="fade-up" href="book-consultation.html">Book Free Consultation</a>
+      </div>
+  </div>
+
+   <div class="services">
+      <h2 class="our-services" data-aos="fade-up">OUR SERVICES</h2>
+      <div class="underline-two" data-aos="fade-up"></div>
+    </div>
+
+  <div class="fourth-line" data-aos="fade-up" >
+    <div class="brand-dev">
+      <img class="webdev-pic" src="Website-images/steve-johnson-A_SQTCDeSn0-unsplash.webp" alt="">
+    <h2 class="brand-header">BRAND DEVELOPMENT</h2>
+    <p class="at-best">At Best Quotes Content and Consultancy, we recognize that a strong 
+      brand is the foundation of a successful business.</p>
+      <a class="more-read" href="services.html#brand-develop">Read More<i class="fa-solid fa-angle-right"></i></a>
+    </div>
+
+    <div class="brand-dev">
+      <img class="webdev-pic" src="Website-images/aperture-vintage-HF1IO60tQdc-unsplash.webp" alt="">
+    <h2 class="brand-header">P.R AND CONTENT CREATION</h2>
+    <p class="at-best-two">We understand that effective communication requires a harmonious 
+      blend of public relations and content creation.</p>
+      <a class="more-read" href="services.html#content-creation">Read More<i class="fa-solid fa-angle-right"></i></a>
+    </div>
+
+     <div class="brand-dev">
+      <img class="webdev-pic" src="Website-images/jakub-zerdzicki-T8LzkJlyqHA-unsplash.webp" alt="">
+    <h2 class="brand-header">CORPORATE ADVISORY</h2>
+    <p class="at-best-three">Our Corporate Advisory services are designed to provide 
+      strategic guidance and support to organizations.</p>
+      <a class="more-read" href="services.html#advisory-cop">Read More<i class="fa-solid fa-angle-right"></i></a>
+    </div>
+
+      <div class="brand-dev">
+      <img class="webdev-pic" src="Website-images/milad-fakurian-CN2FEPXERRI-unsplash.webp" alt="">
+    <h2 class="brand-header">CLOUD AND WEB SERVICES</h2>
+    <p class="at-best">Leveraging cloud technology and effective web solutions is crucial for businesses 
+      seeking to enhance efficiency, scalability.</p>
+      <a class="more-read" href="services.html#cloud-web">Read More<i class="fa-solid fa-angle-right"></i></a>
+    </div>
+</div>
+
+
+<div class="tagline">
+  <h1 class="tagline-main"data-aos="fade-right" ><span class="you">You are</span> <span class="one">one step away</span> 
+    <span class="from">from the best advisory.</span></h1>
+    <a class="Book-consult-three" data-aos="fade-up" href="book-consultation.html">Book Free Consultation</a>
+</div>
+
+
+<div class="portfolio-section">
+<h2 class="our-portfolio">OUR PORTFOLIO</h2>
+<div class="underline-three"></div>
+</div>
+<div>
+  <h2 class="we-solutions">We offer solutions to our esteemed clients.</h2>
+</div>
+
+<div class="first-logos" data-aos="fade-up" >
+  <img class="image-one" src="Website-images/codewebbly.png" alt="">
+  <img class="image-two" src="Website-images/spyderdev.png" alt="">
+  <img class="image-three" src="Website-images/fosch.png" alt="">
+  <img class="image-four" src="Website-images/ikosh.png" alt="">
+</div>
+
+<div class="first-logos" data-aos="fade-up">
+  <img class="image-one" src="Website-images/rubk.png" alt="">
+  <img class="image-two" src="Website-images/vendmerge.png" alt="">
+  <img class="image-three" src="Website-images/agmart-insight.png" alt="">
+  <img class="image-four" src="Website-images/uvc.png" alt="">
+</div>
+</div>
+
+<div class="footer">
+  <div class="down-one">
+  <div class="media-icons">
+<a class="icons" href="https://www.instagram.com/bestquotesng" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+<a class="icons" href="https://web.facebook.com/bestquotesng" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+<a class="icons" href="https://www.linkedin.com/company/best-quotes-content-and-consultancy/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+<a class="icons" href="https://x.com/bestquotesngr" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+</div>
+<h2 class="all-rights">ALL RIGHT RESERVED</h2>
+</div>
+<div class="down-two">
+<h1 class="you-biz">Your business deserves the best!</h1>
+<p class="contact-us">Contact us, let's work on your project
+  and give you the best services.
+</p>
+</div>
+<div class="last-book">
+  <a class="last-button" href="book-consultation.html">Book Free Consultation</a>
+</div>
+
+</div>
+
+  </body>
+</html>
